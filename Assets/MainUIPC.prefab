@@ -1,0 +1,2865 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &288153053640203132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4647975473067686145}
+  - component: {fileID: 7647552973752141354}
+  - component: {fileID: 492303520172562395}
+  - component: {fileID: 2292093457563494622}
+  - component: {fileID: 2626139983370733244}
+  m_Layer: 5
+  m_Name: Button (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4647975473067686145
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288153053640203132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.2575655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7905370643783108891}
+  m_Father: {fileID: 8444112375608267301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7647552973752141354
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288153053640203132}
+  m_CullTransparentMesh: 1
+--- !u!114 &492303520172562395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288153053640203132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2292093457563494622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288153053640203132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 492303520172562395}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2626139983370733244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288153053640203132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 12, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!1 &308388982235960075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8444112375608267301}
+  - component: {fileID: 5157287076129785719}
+  m_Layer: 0
+  m_Name: Buttons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8444112375608267301
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308388982235960075}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4.2575655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6861217327389389123}
+  - {fileID: 6356995972076610612}
+  - {fileID: 4647975473067686145}
+  - {fileID: 4764232351357631625}
+  m_Father: {fileID: 7128819567349370750}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.33800003, y: 0.078}
+  m_AnchorMax: {x: 0.66300005, y: 0.40962958}
+  m_AnchoredPosition: {x: -1.1448059, y: 0.00048828125}
+  m_SizeDelta: {x: -8.305, y: 1.9990005}
+  m_Pivot: {x: 0.5, y: 0.50000006}
+--- !u!114 &5157287076129785719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308388982235960075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 2
+  m_StartAxis: 0
+  m_CellSize: {x: 302, y: 175}
+  m_Spacing: {x: 12, y: 12}
+  m_Constraint: 1
+  m_ConstraintCount: 2
+--- !u!1 &966367457611229197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4764232351357631625}
+  - component: {fileID: 2766700341754275276}
+  - component: {fileID: 8297819962634539411}
+  - component: {fileID: 6830016295396135154}
+  - component: {fileID: 8423944662881090703}
+  m_Layer: 5
+  m_Name: Button (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4764232351357631625
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966367457611229197}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.2575655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2992548701242629579}
+  m_Father: {fileID: 8444112375608267301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2766700341754275276
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966367457611229197}
+  m_CullTransparentMesh: 1
+--- !u!114 &8297819962634539411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966367457611229197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6830016295396135154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966367457611229197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8297819962634539411}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8423944662881090703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966367457611229197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 12, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!1 &1158741192053381156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3085800202358914822}
+  - component: {fileID: 8658277169386824559}
+  - component: {fileID: 8463883328974296812}
+  m_Layer: 5
+  m_Name: Question_Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3085800202358914822
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158741192053381156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5973033351774204632}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.013474453, y: 0.097136036}
+  m_AnchorMax: {x: 0.9923584, y: 0.31063116}
+  m_AnchoredPosition: {x: -3.5142822, y: 0}
+  m_SizeDelta: {x: 5.533325, y: 4.5411987}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8658277169386824559
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158741192053381156}
+  m_CullTransparentMesh: 1
+--- !u!114 &8463883328974296812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158741192053381156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_sharedMaterial: {fileID: 4976817040587448316, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278246143
+  m_fontColor: {r: 1, g: 0.854902, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 25
+  m_fontSizeBase: 25
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -3.515625, y: 0, z: -2.255844, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &1447348745028905077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6356995972076610612}
+  - component: {fileID: 5090495216712701772}
+  - component: {fileID: 5650164419672728039}
+  - component: {fileID: 8898197334681899328}
+  - component: {fileID: 5670681750757160169}
+  m_Layer: 5
+  m_Name: Button (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6356995972076610612
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447348745028905077}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.2575655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2574085720009709873}
+  m_Father: {fileID: 8444112375608267301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5090495216712701772
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447348745028905077}
+  m_CullTransparentMesh: 1
+--- !u!114 &5650164419672728039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447348745028905077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8898197334681899328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447348745028905077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 5650164419672728039}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5670681750757160169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447348745028905077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 12, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!1 &2441416313499071987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7054374789356923104}
+  - component: {fileID: 7269890545285053612}
+  - component: {fileID: 2556632247714944988}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7054374789356923104
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441416313499071987}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7128819567349370750}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7269890545285053612
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441416313499071987}
+  m_CullTransparentMesh: 1
+--- !u!114 &2556632247714944988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441416313499071987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a9df276e5a9f76f48b3f98915ad54392, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2951405729353952433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5973033351774204632}
+  - component: {fileID: 6883581612424584740}
+  - component: {fileID: 521968776246516955}
+  - component: {fileID: 4669980165963540340}
+  m_Layer: 5
+  m_Name: QuestionPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5973033351774204632
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2951405729353952433}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.5389}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3085800202358914822}
+  - {fileID: 753898788443090720}
+  - {fileID: 2877468331724499475}
+  m_Father: {fileID: 7128819567349370750}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.33800003, y: 0.48237038}
+  m_AnchorMax: {x: 0.66300005, y: 0.8880001}
+  m_AnchoredPosition: {x: -0.82229614, y: -0.5}
+  m_SizeDelta: {x: -6.229698, y: -4.4818993}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6883581612424584740
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2951405729353952433}
+  m_CullTransparentMesh: 1
+--- !u!114 &521968776246516955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2951405729353952433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2901961, g: 0.2901961, b: 0.2901961, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4669980165963540340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2951405729353952433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 12, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!1 &3319319130828921416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6861217327389389123}
+  - component: {fileID: 4598127993094221223}
+  - component: {fileID: 6699134599274888985}
+  - component: {fileID: 7883612899012867126}
+  - component: {fileID: 353039074166816408}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6861217327389389123
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319319130828921416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.2575655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1517496413052877237}
+  m_Father: {fileID: 8444112375608267301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4598127993094221223
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319319130828921416}
+  m_CullTransparentMesh: 1
+--- !u!114 &6699134599274888985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319319130828921416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7883612899012867126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319319130828921416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 6699134599274888985}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &353039074166816408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319319130828921416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 12, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!1 &4709733257473446620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7905370643783108891}
+  - component: {fileID: 8298561503847833523}
+  - component: {fileID: 1604822753751456904}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7905370643783108891
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4709733257473446620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4647975473067686145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -74, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8298561503847833523
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4709733257473446620}
+  m_CullTransparentMesh: 1
+--- !u!114 &1604822753751456904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4709733257473446620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_sharedMaterial: {fileID: 4976817040587448316, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278246143
+  m_fontColor: {r: 1, g: 0.8564266, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 25
+  m_fontSizeBase: 25
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &6620309451158883376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2877468331724499475}
+  - component: {fileID: 2298648040416506614}
+  - component: {fileID: 1802106817001988315}
+  - component: {fileID: 1043994516072033152}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2877468331724499475
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620309451158883376}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5973033351774204632}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.31063116}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.66082764, y: -0.24801636}
+  m_SizeDelta: {x: -0.20080566, y: 1.5799866}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2298648040416506614
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620309451158883376}
+  m_CullTransparentMesh: 1
+--- !u!114 &1802106817001988315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620309451158883376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1043994516072033152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620309451158883376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 12, y: 0}
+  m_UseGraphicAlpha: 1
+--- !u!1 &6949425829415890372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2992548701242629579}
+  - component: {fileID: 3209934524252540457}
+  - component: {fileID: 5377070325845757349}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2992548701242629579
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6949425829415890372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4764232351357631625}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -74, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3209934524252540457
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6949425829415890372}
+  m_CullTransparentMesh: 1
+--- !u!114 &5377070325845757349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6949425829415890372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_sharedMaterial: {fileID: 4976817040587448316, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278246143
+  m_fontColor: {r: 1, g: 0.8564266, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 25
+  m_fontSizeBase: 25
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -0.3897743, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &7112083381775400928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2574085720009709873}
+  - component: {fileID: 8776584724376293608}
+  - component: {fileID: 1272171704287094392}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2574085720009709873
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7112083381775400928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6356995972076610612}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -74, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8776584724376293608
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7112083381775400928}
+  m_CullTransparentMesh: 1
+--- !u!114 &1272171704287094392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7112083381775400928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_sharedMaterial: {fileID: 4976817040587448316, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278246143
+  m_fontColor: {r: 1, g: 0.8564266, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 25
+  m_fontSizeBase: 25
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &7327145451198971054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3975236582158448917}
+  - component: {fileID: 431762080612897102}
+  m_Layer: 0
+  m_Name: Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3975236582158448917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7327145451198971054}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -618.1958, y: -294.6266, z: 5.470606}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7128819567349370750}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &431762080612897102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7327145451198971054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874fed9ba08d9ef46831f5a1c947b4b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questionsWithAnswers:
+  - <Answers>k__BackingField:
+    - "\u0418\u0432\u0430\u043D"
+    - "\u041C\u0438\u0445\u0430\u0438\u043B"
+    - "\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440"
+    - "\u0414\u043C\u0438\u0442\u0440\u0438\u0439"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0442\u043E \u0438\u0437 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0445
+        \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0433\u043B\u0430\u0432\u043D\u044B\u043C
+        \u0433\u0435\u0440\u043E\u0435\u043C \u0441\u0435\u0440\u0438\u0430\u043B\u0430
+        \"\u0421\u043B\u043E\u0432\u043E \u043F\u0430\u0446\u0430\u043D\u0430\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 7fcedab2a67fa694aa4da2a3ff8995cb, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041C\u043E\u0441\u043A\u0432\u0430"
+    - "\u0421\u0430\u043D\u043A\u0442-\u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433"
+    - "\u041A\u0430\u0437\u0430\u043D\u044C"
+    - "\u041D\u043E\u0432\u043E\u0441\u0438\u0431\u0438\u0440\u0441\u043A"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0413\u0434\u0435 \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u044F\u0442
+        \u043E\u0441\u043D\u043E\u0432\u043D\u044B\u0435 \u0441\u043E\u0431\u044B\u0442\u0438\u044F
+        \u0432 \u0441\u0435\u0440\u0438\u0430\u043B\u0435 \"\u0421\u043B\u043E\u0432\u043E
+        \u043F\u0430\u0446\u0430\u043D\u0430\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: b333155cc4f84ab4bb34be72d37ae476, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0421\u043F\u043E\u0440\u0442\u0443"
+    - "\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0435"
+    - "\u0416\u0438\u0437\u043D\u0438 \u043F\u043E\u0434\u0440\u043E\u0441\u0442\u043A\u043E\u0432"
+    - "\u041A\u0443\u043B\u0438\u043D\u0430\u0440\u0438\u0438"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0427\u0435\u043C\u0443 \u043F\u043E\u0441\u0432\u044F\u0449\u0435\u043D\u0430
+        \u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 \u0441\u0435\u0440\u0438\u0430\u043B\u0430
+        \"\u0421\u043B\u043E\u0432\u043E \u043F\u0430\u0446\u0430\u043D\u0430\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 701c276878ab28d46b02db4fc6b2dbbe, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041B\u044E\u0431\u043E\u0432\u043D\u044B\u0439 \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A"
+    - "\u0421\u0435\u043C\u0435\u0439\u043D\u044B\u0435 \u043E\u0442\u043D\u043E\u0448\u0435\u043D\u0438\u044F"
+    - "\u041F\u0440\u043E\u0431\u043B\u0435\u043C\u044B \u0432 \u0448\u043A\u043E\u043B\u0435"
+    - "\u0414\u0440\u0443\u0436\u0431\u0430 \u0438 \u043F\u0440\u0435\u0434\u0430\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u043E"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u0430\u044F \u0442\u0435\u043C\u0430
+        \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u043A\u043E\u043D\u0444\u043B\u0438\u043A\u0442
+        \u0432 \u0441\u0435\u0440\u0438\u0430\u043B\u0435 \"\u0421\u043B\u043E\u0432\u043E
+        \u043F\u0430\u0446\u0430\u043D\u0430\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: c68c06cd22b24bf4899100267d36e245, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041A\u043B\u0443\u0431 \"\u041F\u044F\u0442\u0451\u0440\u043E\u0447\u043A\u0430\""
+    - "\u041A\u0430\u0444\u0435 \"\u0421\u0442\u0430\u0440\u0431\u0430\u043A\u0441\""
+    - "\u041F\u0438\u0446\u0446\u0435\u0440\u0438\u044F \"\u041F\u0435\u043F\u043F\u0435\u0440\u043E\u043D\u0438\""
+    - "\u041B\u0430\u0440\u0435\u043A \"\u041D\u0430 \u0443\u0433\u043B\u0443\""
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0413\u0434\u0435 \u0447\u0430\u0441\u0442\u043E
+        \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044E\u0442\u0441\u044F \u0433\u0435\u0440\u043E\u0438
+        \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: e04d27039aa78a04c8f8cd162fce899d, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041C\u0443\u043B\u044C\u0442\u0441\u0435\u0440\u0438\u0430\u043B"
+    - "\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u044B\u0439"
+    - "\u0414\u0440\u0430\u043C\u0430"
+    - "\u041A\u043E\u043C\u0435\u0434\u0438\u044F"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u043C \u0444\u043E\u0440\u043C\u0430\u0442\u0435
+        \u0432\u044B\u0448\u0435\u043B \u0441\u0435\u0440\u0438\u0430\u043B \"\u0421\u043B\u043E\u0432\u043E
+        \u043F\u0430\u0446\u0430\u043D\u0430\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 8f5d0df3fa8dcfa44987b023469efd89, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041F\u0438\u0441\u0430\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u043E"
+    - "\u041C\u0443\u0437\u044B\u043A\u0430"
+    - "\u0424\u0443\u0442\u0431\u043E\u043B"
+    - "\u0420\u0438\u0441\u043E\u0432\u0430\u043D\u0438\u0435"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u043E\u0435 \u0443\u0432\u043B\u0435\u0447\u0435\u043D\u0438\u0435
+        \u0443 \u0433\u043B\u0430\u0432\u043D\u043E\u0433\u043E \u0433\u0435\u0440\u043E\u044F
+        \"\u0421\u043B\u043E\u0432\u043E \u043F\u0430\u0446\u0430\u043D\u0430\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 7d6724b315c32f446a2f0bfdcf9de49f, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0421\u0442\u0430\u0441"
+    - "\u0413\u043E\u0448\u0430"
+    - "\u0414\u0438\u043C\u0430"
+    - "\u0412\u043E\u0432\u0430"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A \u043D\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+        \u043B\u0443\u0447\u0448\u0438\u0439 \u0434\u0440\u0443\u0433 \u0433\u043B\u0430\u0432\u043D\u043E\u0433\u043E
+        \u0433\u0435\u0440\u043E\u044F \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 5efa36098384fb148bf5e5aa7b11aad3, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0412\u0430\u043D\u044F"
+    - "\u0420\u0443\u0441\u043B\u0430\u043D"
+    - "\u0410\u043D\u0434\u0440\u0435\u0439"
+    - "\u041C\u0430\u0440\u0430\u0442"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A \u0437\u043E\u0432\u0443\u0442
+        \u043F\u0430\u0446\u0430\u043D\u0430 \u043F\u043E \u043A\u043B\u0438\u0447\u043A\u0435
+        \u041F\u0430\u043B\u044C\u0442\u043E?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 83367b44e61349843aae83980d4c625d, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0427\u0430\u0439\u043D\u0438\u043A\u0438"
+    - "\u0420\u0430\u0437\u044A\u0435\u0437\u0434"
+    - "\u0423\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043C"
+    - "\u0425\u0430\u0434\u0438 \u0422\u0430\u043A\u0442\u0430\u0448"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041F\u0430\u0446\u0430\u043D\u044B \u0438\u0437
+        \u043A\u0430\u043A\u043E\u0439 \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0438
+        \u0443\u0431\u0438\u043B\u0438 \u0415\u0440\u0430\u043B\u0430\u0448\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a6b40ef1edd8a1e40b1b098989b4f1a6, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0417\u0430 \u043F\u0440\u0435\u0434\u0430\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u043E
+      \u0432\u0441\u0435\u0445"
+    - "\u0417\u0430 \u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u0441 \u043F\u043E\u0440\u0447\u0435\u043D\u043E\u0439
+      \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439"
+    - "\u0417\u0430 \u043F\u0440\u0435\u0434\u0430\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u043E
+      \u0431\u0440\u0430\u0442\u0430"
+    - "\u0417\u0430 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0435\u0441\u0442\u0432\u043E
+      \u0441 \u043C\u0438\u043B\u0438\u0446\u0438\u0435\u0439"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0417\u0430 \u0447\u0442\u043E \u0422\u0443\u0440\u0431\u043E
+        \u043E\u0442\u0448\u0438\u043B \u041C\u0430\u0440\u0430\u0442\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 9eb164fffe44fc54282b0769cc1d6717, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041E\u043D \u0437\u0438\u043C\u043E\u0439 \u0432\u0441\u0442\u0443\u043F\u0438\u043B
+      \u0432 \u0431\u0430\u043D\u0434\u0443"
+    - "\u0415\u0433\u043E \u043B\u044E\u0431\u0438\u043C\u043E\u0435 \u0432\u0440\u0435\u043C\u044F
+      \u0433\u043E\u0434\u0430"
+    - "\u0418\u0437-\u0437\u0430 \u0440\u043E\u0436\u0434\u0435\u043D\u0438\u044F
+      \u0435\u0433\u043E \u0437\u0438\u043C\u043E\u0439"
+    - "\u0418\u0437-\u0437\u0430 \u0435\u0433\u043E \u0444\u0430\u043C\u0438\u043B\u0438\u0438"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041F\u043E\u0447\u0435\u043C\u0443 \u0443 \u0412\u0430\u0445\u0438\u0442\u0430
+        \u043A\u043B\u0438\u0447\u043A\u0430 \u0417\u0438\u043C\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: c03ee0e0507dbd8479a10fe9f92b580c, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0410\u0444\u0433\u0430\u043D\u0438\u0441\u0442\u0430\u043D"
+    - "\u0413\u0435\u0440\u043C\u0430\u043D\u0438\u044F"
+    - "\u0421\u0428\u0410"
+    - "\u0418\u0440\u0430\u043A"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041E\u0442\u043A\u0443\u0434\u0430 \u043F\u0440\u0438\u0435\u0445\u0430\u043B
+        \u0412\u043E\u0432\u0430 \u0410\u0434\u0438\u0434\u0430\u0441?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 0a6a716139071ec47b0a6b79c385ec3a, type: 3}
+  - <Answers>k__BackingField:
+    - 6
+    - 5
+    - 7
+    - 2
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0410\u0439\u0433\u0443\u043B\u044C \u0441\u0431\u0440\u043E\u0441\u0438\u043B\u0430\u0441\u044C
+        \u0441 \u043E\u043A\u043D\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a9df276e5a9f76f48b3f98915ad54392, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041F\u0440\u0430\u0432\u0430\u044F \u0440\u0443\u043A\u0430"
+    - "\u041B\u0438\u0434\u0435\u0440"
+    - "\u041B\u0435\u0432\u0430\u044F \u0440\u0443\u043A\u0430"
+    - "\u041B\u0430\u043C\u043F\u0430"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0442\u043E \u0412\u043E\u0432\u0430 \u0421\u0443\u0432\u043E\u0440\u043E\u0432
+        \u0432 \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0435?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: b0d04ceb77e62054a80fa0df9d177d9f, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0418\u043B\u044C\u043D\u0430\u0440 \u0410\u0439\u0434\u0430\u0435\u0432"
+    - "\u0410\u0440\u0442\u0451\u043C \u0421\u043E\u043B\u043D\u0446\u0435\u0432"
+    - "\u0410\u043B\u0435\u043A\u0441\u0435\u0439 \u0413\u0430\u0433\u0430\u0440\u0438\u043D"
+    - "\u0418\u043B\u044C\u0434\u0430\u0440 \u042E\u043D\u0443\u0441\u043E\u0432\u0438\u0447"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A \u0437\u0432\u0430\u043B\u0438
+        \u041C\u0430\u0439\u043E\u0440\u0430 \u043C\u0438\u043B\u0438\u0446\u0438\u0438?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: cba82fe8b5ab40f4f90629b6f4d2bc66, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u0413\u0440\u043E\u043C\u043E\u0432"
+    - "\u042F\u0440\u043E\u0441\u043B\u0430\u0432 \u041C\u043E\u0433\u0438\u043B\u044C\u043D\u0438\u043A\u043E\u0432"
+    - "\u0421\u043B\u0430\u0432\u0430 \u041A\u043E\u043F\u0435\u0439\u043A\u0438\u043D"
+    - "\u0410\u043D\u0434\u0440\u0435\u0439 \u041A\u0443\u0434\u0430\u0448\u0438\u043D"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0418\u043C\u044F \u0430\u043A\u0442\u0451\u0440\u0430
+        \u0432 \u0440\u043E\u043B\u0438 \u0415\u0440\u0430\u043B\u0430\u0448\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 222b8a4f26362f84598803ef242a6399, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0417\u0430\u043D\u0438\u043C\u0430\u0435\u0448\u044C\u0441\u044F \u043B\u0438
+      \u0447\u0435\u043C-\u043D\u0438\u0431\u0443\u0434\u044C?"
+    - "\u0412\u0438\u043D\u043E\u0432\u0435\u043D \u043B\u0438 \u0432 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u0435?"
+    - "\u0421\u043E\u0441\u0442\u043E\u0438\u0448\u044C \u043B\u0438 \u0432 \u043A\u0430\u043A\u043E\u0439-\u043D\u0438\u0431\u0443\u0434\u044C
+      \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0435 \u0438 \u0437\u043D\u0430\u0435\u0448\u044C
+      \u0437\u0430\u043A\u043E\u043D\u044B \u0443\u043B\u0438\u0446\u044B?"
+    - "\u0422\u044B \u043B\u0438\u0434\u0435\u0440 \u041E\u041F\u0413?"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0427\u0442\u043E \u0437\u043D\u0430\u0447\u0438\u0442
+        \u0432\u043E\u043F\u0440\u043E\u0441 \"\u043F\u0440\u0438 \u0434\u0435\u043B\u0430\u0445\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a2d3f217cfd7ad144a08941f1ec55d0e, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041C\u0430\u0440\u0430\u0442"
+    - "\u0412\u043E\u0432\u0430 \u0410\u0434\u0438\u0434\u0430\u0441"
+    - "\u041A\u043E\u0449\u0435\u0439"
+    - "\u041A\u043E\u043B\u0438\u043A \u0438\u0437 \u0434\u043E\u043C\u0431\u044B\u0442\u043E\u0432\u0441\u043A\u0438\u0445"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0442\u043E \u0438\u0437\u043D\u0430\u0441\u0438\u043B\u043E\u0432\u0430\u043B
+        \u0410\u0439\u0433\u0443\u043B\u044C?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 80d23f5815064de409a147fde852a754, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0410\u043D\u0434\u0440\u0435\u0439"
+    - "\u041A\u0438\u0440\u0438\u043B\u043B \u0424\u0430\u043D\u0442\u0438\u043A"
+    - "\u0422\u0443\u0440\u0431\u043E"
+    - "\u0423\u043B\u0438\u0446\u0430"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0442\u043E \u0431\u0440\u043E\u0441\u0438\u043B
+        \u0438 \u043F\u0440\u0435\u0434\u0430\u043B \u0415\u0440\u0430\u043B\u0430\u0448\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: f88678a0d6a1bea49b22d3dc7cf897d4, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041E\u0441\u043A\u043E\u0440\u0431\u043B\u0435\u043D\u0438\u0435"
+    - "\u0427\u043B\u0435\u043D \u041E\u041F\u0413 \"\u0423\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043C\""
+    - "\u0427\u0435\u043B\u043E\u0432\u0435\u043A, \u0441\u043E\u0441\u0442\u043E\u044F\u0449\u0438\u0439
+      \u0432 \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0435"
+    - "\u0427\u043B\u0435\u043D \u041E\u041F\u0413 \"\u0425\u0430\u0434\u0438 \u0422\u0430\u043A\u0442\u0430\u0448\""
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0427\u0442\u043E \u0437\u043D\u0430\u0447\u0438\u0442
+        \"\u0447\u0443\u0448\u043F\u0430\u043D\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 0ad856fe6732c6241a09dae9409b18b8, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0424\u0451\u0434\u043E\u0440 \u0411\u043E\u043D\u0434\u0430\u0440\u0447\u0443\u043A"
+    - "\u041C\u0430\u043A\u0441\u0438\u043C \u0421\u0430\u0431\u043B\u0435\u0437\u0443\u0431\u043A\u043E"
+    - "\u041D\u0438\u043A\u043E\u043B\u0430\u0439 \u041A\u043E\u0437\u043B\u043E\u0432"
+    - "\u0416\u043E\u0440\u0430 \u041A\u0440\u044B\u0436\u043E\u0432\u043D\u0438\u043A\u043E\u0432"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0442\u043E \u0440\u0435\u0436\u0438\u0441\u0441\u0451\u0440
+        \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 6310322c061892c4da7145c91c93c2d1, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0410\u043D\u0434\u0440\u0435\u044F \u041F\u0430\u043B\u044C\u0442\u043E"
+    - "\u0412\u043E\u0432\u0443 \u0410\u0434\u0438\u0434\u0430\u0441\u0430"
+    - "\u041A\u043E\u0449\u0435\u044F"
+    - "\u0410\u0439\u0433\u0443\u043B\u044C"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u043E\u0433\u043E \u043F\u043E\u0441\u0430\u0434\u044F\u0442
+        \u0432 \u0442\u044E\u0440\u044C\u043C\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: c506922cbfb6ff640b90a08c6d0546b3, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041F\u043E\u0434\u043B\u0438\u0437\u044B\u0432\u0430\u0442\u044C\u0441\u044F"
+    - "\u041F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0438\u0442\u044C\u0441\u044F
+      \u043A \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0435"
+    - "\u041F\u043E\u043C\u043E\u0447\u044C \u043B\u0438\u0434\u0435\u0440\u0443
+      \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0438"
+    - "\u0412\u044B\u0439\u0442\u0438 \u0438\u0437 \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0438"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0427\u0442\u043E \u0437\u043D\u0430\u0447\u0438\u0442
+        \u043F\u0440\u0438\u0448\u0438\u0442\u044C\u0441\u044F?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 04687dea8ea391842858fd1aa768d503, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041F\u0440\u043E\u0434\u0443\u043A\u0446\u0438\u044F \u0434\u0432\u043E\u0439\u043D\u043E\u0433\u043E
+      \u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F"
+    - "\u041F\u0440\u0435\u0434\u0435\u043B\u044C\u043D\u043E \u0434\u043E\u043F\u0443\u0441\u0442\u0438\u043C\u0430\u044F
+      \u043D\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
+    - "\u041F\u043E\u0434\u0440\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u0435
+      \u043F\u043E \u0434\u0435\u043B\u0430\u043C \u043D\u0435\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u043D\u043E\u043B\u0435\u0442\u043D\u0438\u0445"
+    - "\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u0430\u044F \u0434\u043E\u0431\u044B\u0447\u0430
+      \u043D\u0435\u0444\u0442\u0438"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0427\u0442\u043E \u0442\u0430\u043A\u043E\u0435
+        \u041F\u0414\u041D?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: d20e9574872cf9a43b75a99dfe770f28, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0412 10"
+    - "\u0412 9"
+    - "\u0412 7"
+    - "\u0412 8"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u043C \u043A\u043B\u0430\u0441\u0441\u0435
+        \u0410\u043D\u0434\u0440\u0435\u0439, \u041C\u0430\u0440\u0430\u0442 \u0438
+        \u0410\u0439\u0433\u0443\u043B\u044C?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 68279965b823d6e44bf802e24bcee4e1, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041D\u0430 \u0441\u043A\u0440\u0438\u043F\u043A\u0435"
+    - "\u041D\u0430 \u0431\u0430\u043B\u0430\u043B\u0430\u0439\u043A\u0435"
+    - "\u041D\u0430 \u0433\u0438\u0442\u0430\u0440\u0435"
+    - "\u041D\u0430 \u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043E"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041D\u0430 \u043A\u0430\u043A\u043E\u043C \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0435
+        \u0438\u0433\u0440\u0430\u0435\u0442 \u0410\u0439\u0433\u0443\u043B\u044C?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a4933f992dc5fbf40b549e863c529e7b, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0423 \u0410\u043D\u0434\u0440\u0435\u044F"
+    - "\u0423 \u041A\u043E\u0449\u0435\u044F"
+    - "\u0423 \u0410\u0439\u0433\u0443\u043B\u044C"
+    - "\u0423 \u0443\u0447\u0438\u0442\u0435\u043B\u044C\u043D\u0438\u0446\u044B
+      \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u043E\u0433\u043E \u044F\u0437\u044B\u043A\u0430"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0423 \u043A\u043E\u0433\u043E \u041C\u0430\u0440\u0430\u0442
+        \u0443\u043A\u0440\u0430\u043B \u0448\u0430\u043F\u043A\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 81090eaeb1ee23d4a8fc7e24420eb6bb, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0421\u0430\u043C \u0434\u043E\u0433\u0430\u0434\u0430\u043B\u0441\u044F"
+    - "\u0415\u043C\u0443 \u0441\u043A\u0430\u0437\u0430\u043B \u0418\u043B\u044C\u0434\u0430\u0440
+      \u042E\u043D\u0443\u0441\u043E\u0432\u0438\u0447"
+    - "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u0430\u043B\u0438 \u0432 \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0435"
+    - "\u0420\u0430\u0432\u0438\u043B\u044C \u0418\u0441\u0430\u043A\u043E\u0432
+      \u0441\u0430\u043C \u043F\u0440\u0438\u0437\u043D\u0430\u043B\u0441\u044F"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A \u041F\u0430\u043B\u044C\u0442\u043E
+        \u0443\u0437\u043D\u0430\u043B, \u0447\u0442\u043E \u0420\u0430\u0432\u0438\u043B\u044C
+        \u0418\u0441\u0430\u043A\u043E\u0432 \u0443\u0431\u0438\u043B \u0415\u0440\u0430\u043B\u0430\u0448\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: fa5f25759eaca404494e90ebd1a5ccf7, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0425\u0430\u0434\u0438 \u0422\u0430\u043A\u0442\u0430\u0448"
+    - "\u0423\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043C"
+    - "\u0414\u043E\u043C \u0431\u044B\u0442\u0430"
+    - "\u0422\u044F\u043F-\u041B\u044F\u043F"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u0430\u044F \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0430
+        \u0443\u043A\u0440\u0430\u043B\u0430 \u0410\u0439\u0433\u0443\u043B\u044C?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: d9aacbce1cb808b46977e5b98d1fcfbb, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0417\u0438\u043C\u0435"
+    - "\u0412\u043E\u0432\u0435 \u0410\u0434\u0438\u0434\u0430\u0441\u0443"
+    - "\u0410\u043D\u0434\u0440\u0435\u044E"
+    - "\u041C\u0430\u0440\u0430\u0442\u0443"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u043E\u043C\u0443 \u043F\u043E\u0440\u0435\u0437\u0430\u043B\u0438
+        \u0443\u0445\u043E?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 34de0d5219ec58242910ae3c56b7f48e, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0416\u0451\u043B\u0442\u044B\u0439"
+    - "\u0421\u0438\u043F\u043B\u044B\u0439"
+    - "\u041C\u0430\u0440\u0430\u0442"
+    - "\u0422\u0443\u0440\u0431\u043E"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0442\u043E \u0434\u0432\u043E\u044E\u0440\u043E\u0434\u043D\u044B\u0439
+        \u0431\u0440\u0430\u0442 \u041D\u0430\u0442\u0430\u0448\u0438?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 2e22539b371eaf74a96c4754b8b4549b, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0410\u0439\u0433\u0443\u043B\u044C"
+    - "\u041C\u0430\u0440\u0430\u0442"
+    - "\u0415\u0440\u0430\u043B\u0430\u0448"
+    - "\u0416\u0451\u043B\u0442\u044B\u0439"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0442\u043E \u043D\u0435 \u0443\u043C\u0440\u0451\u0442
+        \u0432 \u0441\u0435\u0440\u0438\u0430\u043B\u0435?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 86a8e7ee5e529d540a2fd79713a2617f, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0410\u043D\u0434\u0440\u0435\u0439 \u0416\u0438\u0436\u043A\u043E"
+    - "\u0420\u043E\u0431\u0435\u0440\u0442 \u0413\u0430\u0440\u0430\u0435\u0432"
+    - "\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F \u0420\u043E\u0431\u0438\u043D\u0430"
+    - "\u0413\u0443\u043B\u044C\u043D\u0430\u0440\u0430 \u0424\u0430\u0434\u0435\u0435\u0432\u0430"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0442\u043E \u0430\u0432\u0442\u043E\u0440
+        \u043A\u043D\u0438\u0433\u0438, \u043F\u043E \u043A\u043E\u0442\u043E\u0440\u043E\u0439
+        \u0441\u043D\u044F\u0442 \u0441\u0435\u0440\u0438\u0430\u043B?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a00df0ef25f128f4b90c0738feb86c7e, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0422\u043E \u0438 \u0437\u043D\u0430\u0447\u0438\u0442"
+    - "\u041F\u043E\u0442\u0435\u0440\u044F\u0442\u044C \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435"
+    - "\u0421\u0438\u043B\u044C\u043D\u043E \u0443\u0434\u0430\u0440\u0438\u0442\u044C
+      \u0432 \u0433\u0440\u0443\u0434\u043D\u0443\u044E \u043A\u043B\u0435\u0442\u043A\u0443"
+    - "\u0412\u044B\u043F\u0435\u043D\u0434\u0440\u0438\u0432\u0430\u0442\u044C\u0441\u044F"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0427\u0442\u043E \u0437\u043D\u0430\u0447\u0438\u0442
+        \"\u041F\u0440\u043E\u0431\u0438\u0442\u044C \u0444\u0430\u043D\u0435\u0440\u0443\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: d24ba9de263f0f74cae960d75bbd96f0, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0423\u0448\u0435\u0434\u0448\u0438\u0439 \u041A\u043E\u0442 \u041A\u0430\u0437\u0430\u043D\u0438"
+    - "\u0423\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043C \u041A\u043E\u0440\u043E\u043B\u0438
+      \u041A\u0430\u0437\u0430\u043D\u0438"
+    - "\u0423\u0437\u0440\u0438 \u041A\u0430\u043A\u0430\u044F \u041A\u0430\u0437\u0430\u043D\u044C!"
+    - "\u0423\u0440\u0430 \u041A\u0430\u0437\u0430\u043D\u0441\u043A\u0438\u043C
+      \u041A\u043E\u0441\u043E\u043C\u043E\u043B\u0430\u043C!"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0427\u0442\u043E \u0437\u043D\u0430\u0447\u0438\u0442
+        \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0423\u041A\u041A?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: d367adf90ff08d844a361779cc077285, type: 3}
+  - <Answers>k__BackingField:
+    - 9
+    - 7
+    - 8
+    - 10
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0435\u0440\u0438\u0439
+        \u0432 \u0441\u0435\u0440\u0438\u0430\u043B\u0435?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 1ffaf979154f47542aad881132a232e5, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0412 \u042F\u0440\u043E\u0441\u043B\u0430\u0432\u043B\u0435"
+    - "\u0412 \u041A\u0430\u0437\u0430\u043D\u0438"
+    - "\u0412 \u041C\u043E\u0441\u043A\u0432\u0435"
+    - "\u0412 \u041F\u0435\u0440\u043C\u0438"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u043C \u0433\u043E\u0440\u043E\u0434\u0435
+        \u0441\u043D\u0438\u043C\u0430\u043B\u0438 \u0441\u0435\u0440\u0438\u0430\u043B?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: aab8496bbeb65cf47a5d54304927d324, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0414\u043E\u043C \u0411\u044B\u0442\u0430"
+    - "\u0425\u0430\u0434\u0438 \u0422\u0430\u043A\u0442\u0430\u0448"
+    - "\u0420\u0430\u0437\u044A\u0435\u0437\u0434"
+    - "\u041A\u0438\u043D\u043E\u043F\u043B\u0451\u043D\u043A\u0430"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u0430\u044F \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0430
+        \u043F\u0435\u0440\u0435\u0432\u0435\u0440\u043D\u0443\u043B\u0430 \u0442\u0440\u043E\u043B\u043B\u0435\u0439\u0431\u0443\u0441?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a1c755756016f7141bf18768f6389d04, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041A\u043E\u0449\u0435\u0439"
+    - "\u0418\u043B\u044C\u0434\u0430\u0440 \u042E\u043D\u0443\u0441\u043E\u0432"
+    - "\u041C\u0430\u0440\u0430\u0442"
+    - "\u041D\u0430\u0442\u0430\u0448\u0430"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0442\u043E \u0441\u0442\u0440\u0435\u043B\u044F\u043B
+        \u0432 \u0412\u043E\u0432\u0443 \u0410\u0434\u0438\u0434\u0430\u0441\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 837b0d4441643914eba720ee0c9f64aa, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041C\u0430\u0439\u043E\u0440"
+    - "\u041A\u0430\u043F\u0438\u0442\u0430\u043D"
+    - "\u041B\u0435\u0439\u0442\u0435\u043D\u0430\u043D\u0442"
+    - "\u041F\u0440\u0430\u043F\u043E\u0440\u0449\u0438\u043A"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u043E\u0435 \u0437\u0432\u0430\u043D\u0438\u0435
+        \u0443 \u0418\u043B\u044C\u0434\u0430\u0440\u0430 \u042E\u043D\u0443\u0441\u043E\u0432\u0438\u0447\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 0f7761551d4fba546adbbc0d0f84861e, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0410\u0437\u0430\u043B\u0438\u044F"
+    - "\u041C\u0430\u0440\u0438\u044F"
+    - "\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\u0430"
+    - "\u042E\u043B\u0438\u044F"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0420\u0435\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0438\u043C\u044F \u0430\u043A\u0442\u0440\u0438\u0441\u044B, \u0441\u044B\u0433\u0440\u0430\u0432\u0448\u0443\u044E
+        \u0421\u0432\u0435\u0442\u043B\u0430\u043D\u0443 \u041C\u0438\u0445\u0430\u0439\u043B\u043E\u0432\u043D\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 0159c89b950db8a42bc58ba1fd34f91a, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0411\u0435\u043B\u044B\u0445 \u0440\u043E\u0437 \u0431\u0443\u043A\u0435\u0442\u044B"
+    - "\xAB\u0420\u043E\u0442 \u0424\u0440\u043E\u043D\u0442\xBB \u043A\u043E\u043D\u0444\u0435\u0442\u044B"
+    - "\u0421\u0442\u0430\u0440\u044B\u0435 \u0448\u0442\u0438\u0431\u043B\u0435\u0442\u044B"
+    - "\u0414\u0430\u043C\u0441\u043A\u0438\u0435 \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u044B"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u0435
+        \u0444\u0440\u0430\u0437\u0443: \xAB\u041F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u043C
+        \u0432\u0441\u0435 \u2014 \u0437\u043E\u043B\u043E\u0442\u043E, \u0441\u0435\u0440\u0435\u0436\u043A\u0438,
+        \u0431\u0440\u0430\u0441\u043B\u0435\u0442\u044B \u0438 \u2026\xBB"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 39ab3e0be8ff5904cb49448a90fd2f7f, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0418\u043D\u0441\u043F\u0435\u043A\u0442\u043E\u0440 \u043F\u043E \u0434\u0435\u043B\u0430\u043C
+      \u043D\u0435\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u043D\u043E\u043B\u0435\u0442\u043D\u0438\u0445"
+    - "\u0410\u043A\u0442\u0451\u0440"
+    - "\u0414\u0435\u0442\u0435\u043A\u0442\u0438\u0432"
+    - "\u0423 \u043D\u0435\u0451 \u043D\u0435 \u0431\u044B\u043B\u043E \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u0438,
+      \u043E\u043D\u0430 \u0443\u0447\u0438\u043B\u0430\u0441\u044C"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u0430\u044F \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u044F
+        \u0431\u044B\u043B\u0430 \u0443 \u0418\u0440\u0438\u043D\u044B \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043D\u044B?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 654be85d497847b499fc5267f6a44421, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0412\u044F\u0447\u0435\u0441\u043B\u0430\u0432"
+    - "\u0418\u043D\u043D\u043E\u043A\u0435\u043D\u0442\u0438\u0439"
+    - "\u041A\u043E\u043D\u0441\u0442\u0430\u043D\u0442\u0438\u043D"
+    - "\u0418\u0432\u0430\u043D"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0420\u0435\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0438\u044F\u044F \u0430\u043A\u0442\u0451\u0440\u0430, \u0441\u044B\u0433\u0440\u0430\u0432\u0448\u0435\u0433\u043E
+        \"\u0422\u0443\u0440\u0431\u043E\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 2866bcdb348d16444a0c6d9bd329c7b0, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041E\u043D \u043B\u044E\u0431\u0438\u0442 \u0433\u043E\u043D\u043A\u0438"
+    - "\u041E\u043D \u0431\u044B\u0441\u0442\u0440\u043E \u043E\u0442\u0436\u0438\u043C\u0430\u0435\u0442\u0441\u044F"
+    - "\u0415\u0433\u043E \u043B\u044E\u0431\u0438\u043C\u0430\u044F \u0436\u0432\u0430\u0447\u043A\u0430
+      \u044D\u0442\u043E \u0442\u0443\u0440\u0431\u043E"
+    - "\u0417\u0430 \u0435\u0433\u043E \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041F\u043E\u0447\u0435\u043C\u0443 \u0423 \u0412\u0430\u043B\u0435\u0440\u044B
+        \u043A\u043B\u0438\u0447\u043A\u0430 \u0442\u0443\u0440\u0431\u043E?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 7e0e643c09ba1264a863dbe09ed260ca, type: 3}
+  - <Answers>k__BackingField:
+    - "22 \u0430\u043F\u0440\u0435\u043B\u044F"
+    - "1 \u0430\u0432\u0433\u0443\u0441\u0442\u0430"
+    - "9 \u0441\u0435\u043D\u0442\u044F\u0431\u0440\u044F"
+    - "2 \u044F\u043D\u0432\u0430\u0440\u044F"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u043E\u0433\u0434\u0430 \u0434\u0435\u043D\u044C
+        \u0440\u043E\u0436\u0434\u0435\u043D\u0438\u044F \u0443 \u0410\u043D\u0434\u0440\u0435\u044F?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 853fdfc0762fb3449af302a8eee41de9, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0412\u043E \u0412\u043B\u0430\u0434\u0443 \u0438\u0437 \u0443\u043D\u0438\u0432\u0435\u0440\u0430"
+    - "\u041C\u0438\u0445\u0430\u0438\u043B"
+    - "\u0412 \u041D\u0430\u0442\u0430\u0448\u0443 \u043C\u0435\u0434\u0441\u0435\u0441\u0442\u0440\u0443"
+    - "\u0412 \u0418\u0440\u0438\u043D\u0443 \u0438\u0437 \u043C\u0438\u043B\u0438\u0446\u0438\u0438"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u043E\u0433\u043E \u0431\u044B\u043B
+        \u0432\u043B\u044E\u0431\u043B\u0435\u043D \u0412\u043E\u0432\u0430 \u0430\u0434\u0438\u0434\u0430\u0441?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: f41637df99947c345a622977efbab7f9, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041D\u0438\u0447\u0435\u0433\u043E"
+    - "\u0418\u0437\u0431\u0438\u043B\u0438 \u0438 \u043E\u0442\u0441\u0442\u0440\u0438\u0433\u043B\u0438
+      \u0432\u043E\u043B\u043E\u0441\u044B"
+    - "\u0423\u0431\u0438\u043B\u0438"
+    - "\u041F\u0440\u043E\u0441\u0442\u043E \u0438\u0437\u0431\u0438\u043B\u0438"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0427\u0442\u043E \u0441\u0434\u0435\u043B\u0430\u043B
+        \u041F\u0430\u043B\u044C\u0442\u043E \u0438 \u0434\u0440\u0443\u0433\u0438\u0435
+        \u043F\u0430\u0446\u0430\u043D\u044B \u0441 \u0414\u0436\u043E\u043D\u043E\u043C
+        \u0437\u0430 \u0442\u043E \u0447\u0442\u043E \u0442\u043E\u0442 \u043E\u0441\u043A\u043E\u0440\u0431\u0438\u043B
+        \u041F\u0430\u043B\u044C\u0442\u043E?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a7ca5c7ba9efe5c4aa240272c9a0905f, type: 3}
+  - <Answers>k__BackingField:
+    - "1 \u0440\u0443\u0431\u043B\u044C 50 \u043A\u043E\u043F\u0435\u0435\u043A"
+    - "5 \u0440\u0443\u0431\u043B\u0435\u0439"
+    - "3 \u0440\u0443\u0431\u043B\u044F"
+    - "2 \u0440\u0443\u0431\u043B\u044F 50 \u043A\u043E\u043F\u0435\u0435\u043A"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u041F\u0430\u043B\u044C\u0442\u043E
+        \u0431\u044B\u043B \u0434\u043E\u043B\u0436\u0435\u043D \u0418\u0441\u043A\u0430\u043D\u0434\u0435\u0440\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 5ca3307f00a905f42acc22353a53b0ea, type: 3}
+  - <Answers>k__BackingField:
+    - "600 \u043C\u0438\u043D\u0443\u0442"
+    - "6 \u0447\u0430\u0441\u043E\u0432"
+    - "8 \u0447\u0430\u0441\u043E\u0432"
+    - "400 \u043C\u0438\u043D\u0443\u0442"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0432\u0441\u0435\u0433\u043E
+        \u0432\u0440\u0435\u043C\u0435\u043D\u0438 \u0437\u0430\u043D\u0438\u043C\u0430\u0435\u0442
+        \u043F\u0440\u043E\u0441\u043E\u043C\u0442\u0440 \u0441\u0435\u0440\u0438\u0430\u043B\u0430
+        \"\u0421\u043B\u043E\u0432\u043E \u043F\u0430\u0446\u0430\u043D\u0430\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 79159cb701fb34947a3d3a517e433518, type: 3}
+  - <Answers>k__BackingField:
+    - 30
+    - 50
+    - 41
+    - 60
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0432
+        \u0441\u0440\u0435\u0434\u043D\u0435\u043C \u043C\u0438\u043D\u0443\u0442
+        \u0438\u0434\u0451\u0442 \u043E\u0434\u043D\u0430 \u0441\u0435\u0440\u0438\u044F
+        \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 5a898d7371d01bb4396913da191bceb8, type: 3}
+  - <Answers>k__BackingField:
+    - 2027
+    - 2026
+    - 2024
+    - 2025
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u043C \u0433\u043E\u0434\u0443
+        \u043F\u043B\u0430\u043D\u0438\u0440\u0443\u044E\u0442 \u0432\u044B\u043F\u0443\u0441\u0442\u0438\u0442\u044C
+        2 \u0441\u0435\u0437\u043E\u043D \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: bc8500d55413c014694da17d3b8107f9, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043D"
+    - "\u0422\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043D"
+    - "\u0420\u043E\u0441\u0441\u0438\u044F"
+    - "\u0421\u0421\u0421\u0420"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0442\u0440\u0430\u043D\u0435
+        \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u044F\u0442 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 636c8e47a01317c48baebb446f570b96, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041A\u043E\u043D\u0435\u0446 80-\u0445"
+    - "\u041D\u0430\u0447\u0430\u043B\u043E 90-\u0445"
+    - "\u041A\u043E\u043D\u0435\u0446-90\u0445"
+    - "\u041D\u0430\u0447\u0430\u043B\u043E 2000-\u0445"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u0438\u0435 \u0433\u043E\u0434\u0430
+        \u0440\u0430\u0437\u0432\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u044E\u0442\u0441\u044F
+        \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 8e5422bfc70409449a9a4b1ee3de201e, type: 3}
+  - <Answers>k__BackingField:
+    - Mozeratti
+    - Ducari
+    - FCR-900
+    - Daderri
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u043E\u0439 \u043C\u043E\u0442\u043E\u0446\u0438\u043A\u043B
+        \u0445\u043E\u0447\u0435\u0442 \u041C\u0430\u0440\u0430\u0442?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 8c853c51b63bd2248b7b7b0cebe0fd2c, type: 3}
+  - <Answers>k__BackingField:
+    - 5
+    - 3
+    - 4
+    - 1
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043F\u043E\u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0410\u0439\u0433\u0443\u043B\u044C?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 6d5296e4efb2f954c992a513cc38fba0, type: 3}
+  - <Answers>k__BackingField:
+    - 4
+    - 7
+    - 1
+    - 2
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043F\u043E\u0435\u0434\u0443\u0442 \u0432 \u041C\u043E\u0441\u043A\u0432\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: d98bb5defd05faa4f885632cbff446b0, type: 3}
+  - <Answers>k__BackingField:
+    - 6
+    - 3
+    - 1
+    - 2
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043F\u043E\u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0412\u043E\u0432\u0430
+        \u0410\u0434\u0438\u0434\u0430\u0441?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 09352b9fa25540245b2fc54eecfc20c0, type: 3}
+  - <Answers>k__BackingField:
+    - "1 \u0440\u0443\u0431\u043B\u044C 50 \u043A\u043E\u043F\u0435\u0435\u043A"
+    - "5 \u0440\u0443\u0431\u043B\u0435\u0439"
+    - "3 \u0440\u0443\u0431\u043B\u044F"
+    - "2 \u0440\u0443\u0431\u043B\u044F 50 \u043A\u043E\u043F\u0435\u0435\u043A"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u041F\u0430\u043B\u044C\u0442\u043E
+        \u0431\u044B\u043B \u0434\u043E\u043B\u0436\u0435\u043D \u0418\u0441\u043A\u0430\u043D\u0434\u0435\u0440\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 93a4d2fd3036af74a9347d2b2bbb3b50, type: 3}
+  - <Answers>k__BackingField:
+    - 4
+    - 2
+    - 1
+    - 5
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0410\u043D\u0434\u0440\u0435\u0439 \u041F\u0430\u043B\u044C\u0442\u043E
+        \u043F\u043E\u0434\u0441\u0442\u0440\u0438\u0433\u0441\u044F?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: c61de08210fafdb4cae7a11e0dbd5e60, type: 3}
+  - <Answers>k__BackingField:
+    - 7
+    - 6
+    - 3
+    - 2
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0415\u0440\u0430\u043B\u0430\u0448 \u043F\u043E\u0434\u0430\u0440\u0438\u0442
+        \u0431\u0430\u0431\u0443\u0448\u043A\u0435 \u0443\u0442\u044E\u0433?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: f8ad9c01110b2a44bad0fa538f089c5e, type: 3}
+  - <Answers>k__BackingField:
+    - 4
+    - 2
+    - 3
+    - 5
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043F\u043E\u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u043F\u0430\u043F\u0430
+        \u041C\u0430\u0440\u0430\u0442\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 0c157b928d5e87e4fad2419fa0818493, type: 3}
+  - <Answers>k__BackingField:
+    - 3
+    - 2
+    - 4
+    - 5
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0433\u0440\u0443\u043F\u043F\u0435
+        \u041A\u0438\u0440\u0438\u043B\u043B\u0430 \u0432\u044B\u0433\u043E\u043D\u044F\u044E\u0442
+        \u0438\u0437 \u0433\u0440\u0443\u043F\u043F\u044B?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 3a19cbe7bf13c5343906623e137f1d16, type: 3}
+  - <Answers>k__BackingField:
+    - 6
+    - 1
+    - 3
+    - 4
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u041C\u0430\u0440\u0430\u0442 \u0443\u043A\u0440\u0430\u0434\u0451\u0442
+        \u0448\u0430\u043F\u043A\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 8b3a8f58c0ab6e149a73455c650b0f10, type: 3}
+  - <Answers>k__BackingField:
+    - 6
+    - 3
+    - 7
+    - 4
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043F\u043E\u0445\u043E\u0440\u043E\u0434\u044B \u0415\u0440\u0430\u043B\u0430\u0448\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a8fdc9feca110db459278086a626f982, type: 3}
+  - <Answers>k__BackingField:
+    - 6
+    - 2
+    - 5
+    - 3
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043C\u0435\u0441\u0442\u044C \u0437\u0430 \u0415\u0440\u0430\u043B\u0430\u0448\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 6b88e9e49eff00745b2dbc758d949896, type: 3}
+  - <Answers>k__BackingField:
+    - 4
+    - 3
+    - 6
+    - 5
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0412\u043E\u0432\u0430 \u0410\u0434\u0438\u0434\u0430\u0441 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442
+        \u041D\u0430\u0442\u0430\u0448\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: c51043f683c2dcf4482023b7fa925cff, type: 3}
+  - <Answers>k__BackingField:
+    - 6
+    - 5
+    - 4
+    - 7
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0438\u0437\u0431\u0438\u043B\u0438 \u0438 \u0432\u044B\u0433\u043D\u0430\u043B\u0438
+        \u041A\u0430\u0449\u0435\u044F?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 6e64cd7d201001c40a98b26e7a2e4a0c, type: 3}
+  - <Answers>k__BackingField:
+    - 4
+    - 2
+    - 5
+    - 6
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0443\u043A\u0440\u0430\u043B\u0438 \u043C\u0430\u0433\u043D\u0438\u0442\u043E\u0444\u043E\u043D?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 8c6296f85bee5494dabd783bd9b3a7b6, type: 3}
+  - <Answers>k__BackingField:
+    - 5
+    - 6
+    - 7
+    - 4
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043F\u043E\u0431\u0435\u0433 \u0438\u0437 \u0431\u043E\u043B\u044C\u043D\u0438\u0446\u044B?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 874cc419ab447ea4b84b7b29b1f3fd7d, type: 3}
+  - <Answers>k__BackingField:
+    - 1
+    - 5
+    - 4
+    - 3
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043C\u0430\u043C\u0430 \u0410\u043D\u0434\u0440\u0435\u044F \u0441\u043E\u0439\u0434\u0451\u0442
+        \u0441 \u0443\u043C\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 05283d8b46c3187489d52aa7ec4dc5ac, type: 3}
+  - <Answers>k__BackingField:
+    - 6
+    - 7
+    - 4
+    - 5
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043F\u043E\u0445\u0438\u0442\u044F\u0442 \u0410\u0439\u0433\u0443\u043B\u044C?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 8b6801ea326cc394daa596aeb3c84638, type: 3}
+  - <Answers>k__BackingField:
+    - 4
+    - 6
+    - 5
+    - 7
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u041C\u0430\u0440\u0430\u0442\u0443 \u043F\u043E\u0440\u0435\u0437\u0430\u0445\u0438
+        \u0443\u0445\u043E?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: bbc7f5e34c4f0f14f9f5d99b5f822958, type: 3}
+  - <Answers>k__BackingField:
+    - 7
+    - 6
+    - 3
+    - 5
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u041C\u0430\u0440\u0430\u0442 \u043F\u043E\u0439\u0434\u0451\u0442 \u0432
+        \u043D\u043E\u0432\u0443\u044E \u0448\u043A\u043E\u043B\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: dee6aad9ef59e5a47a84da952aa60fee, type: 3}
+  - <Answers>k__BackingField:
+    - 5
+    - 6
+    - 7
+    - 1
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0443\u043C\u0440\u0451\u0442 \u0436\u0451\u043B\u0442\u044B\u0439?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: b65c18401a730c943b777384665c32cf, type: 3}
+  - <Answers>k__BackingField:
+    - 7
+    - 6
+    - 8
+    - 4
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0443\u043C\u0440\u0451\u0442 \u0410\u0439\u0433\u0443\u043B\u044C?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: f5d835fe3f9cf1f478c96040a6afdd01, type: 3}
+  - <Answers>k__BackingField:
+    - 5
+    - 6
+    - 8
+    - 7
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u041D\u0430\u0442\u0430\u0448\u0430 \u0438 \u0410\u0434\u0438\u0434\u0430\u0441
+        \u043F\u043E\u0446\u0435\u043B\u0443\u044E\u0442\u0441\u044F?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 90e1ed8032c3cfb4bb97e4581fff60a7, type: 3}
+  - <Answers>k__BackingField:
+    - 7
+    - 5
+    - 8
+    - 6
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u043F\u043E\u0445\u043E\u0440\u043E\u043D\u044B \u0418\u0441\u043A\u0430\u043D\u0434\u0435\u0440\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 3b0f732826080f74fb455d42693cbe35, type: 3}
+  - <Answers>k__BackingField:
+    - 5
+    - 6
+    - 7
+    - 8
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0410\u0434\u0438\u0434\u0430\u0441 \u0432\u044B\u0439\u0434\u0435\u0442
+        \u0438\u0437 \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0438?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: ccaccce504e226f4fa7d03ae264ec117, type: 3}
+  - <Answers>k__BackingField:
+    - 5
+    - 7
+    - 9
+    - 6
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u041C\u0430\u0440\u0430\u0442\u0430 \u043E\u0442\u043E\u0448\u044C\u044E\u0442?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 16c224b3dd1c4dc4f9d3dcf2cfc5d895, type: 3}
+  - <Answers>k__BackingField:
+    - 8
+    - 7
+    - 10
+    - 9
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u041C\u0430\u0440\u0430\u0442 \u043D\u0430\u0447\u043D\u0451\u0442 \u0434\u0435\u0439\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C
+        \u0441 \u043F\u043E\u043B\u0438\u0446\u0438\u0435\u0439 \u0438 \u0441\u0434\u0430\u0441\u0442
+        \u0432\u0441\u0435\u0445 \u043F\u0430\u0446\u0430\u043D\u043E\u0432?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 30106c32978235641b65909ea513944d, type: 3}
+  - <Answers>k__BackingField:
+    - 7
+    - 10
+    - 8
+    - 5
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u041C\u0430\u0440\u0430\u0442 \u0432\u0441\u0442\u0443\u043F\u0438\u0442
+        \u0432 \u043A\u043E\u043C\u0441\u043E\u043C\u043E\u043B?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 2cc22abf046d0fe4b95a14d50f0aef96, type: 3}
+  - <Answers>k__BackingField:
+    - 3
+    - 6
+    - 7
+    - 8
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0434\u0440\u0430\u043A\u0430 \u041F\u0430\u043B\u044C\u0442\u043E \u0438
+        \u041C\u0430\u0440\u0430\u0442\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 75f8c8bf6dc1cb64f8e73449f217c859, type: 3}
+  - <Answers>k__BackingField:
+    - 6
+    - 9
+    - 7
+    - 8
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0443\u043C\u0440\u0451\u0442 \u0412\u043E\u0432\u0430 \u0410\u0434\u0438\u0434\u0430\u0441?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a16f1f44c0b522a4b806531066999e8c, type: 3}
+  - <Answers>k__BackingField:
+    - 8
+    - 9
+    - 11
+    - 7
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u041C\u0430\u0440\u0430\u0442 \u043E\u0442\u043E\u043C\u0441\u0442\u0438\u0442
+        \u0437\u0430 \u0410\u0439\u0433\u0443\u043B\u044C?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: b2b4b2a606926e946ab742bce923633d, type: 3}
+  - <Answers>k__BackingField:
+    - 6
+    - 8
+    - 9
+    - 11
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+        \u0410\u043D\u0434\u0440\u0435\u044F \u043F\u043E\u0441\u0430\u0434\u044F\u0442
+        \u0432 \u0442\u044E\u0440\u044C\u043C\u0443?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 7b793f7082d617846aec3c2107f29b75, type: 3}
+  - <Answers>k__BackingField:
+    - 11
+    - 9
+    - 8
+    - 12
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0432\u0441\u0435\u0433\u043E
+        \u0441\u0435\u0440\u0438\u0439 \u0432 \u0441\u0435\u0440\u0438\u0430\u043B\u0435?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: ba95c73c1089117479b4846a81663611, type: 3}
+  - <Answers>k__BackingField:
+    - "\u041D\u0430 \u043A\u043D\u0438\u0433\u0435"
+    - "\u041D\u0430 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0435"
+    - "\u041D\u0430 \u0440\u043E\u043C\u0430\u043D\u0435"
+    - "\u041D\u0430 \u0434\u0440\u0443\u0433\u043E\u043C \u0444\u0438\u043B\u044C\u043C\u0435"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041D\u0430 \u0447\u0451\u043C \u043E\u0441\u043D\u043E\u0432\u0430\u043D
+        \u0441\u0435\u0440\u0438\u0430\u043B?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 83efa8f5b05059b42b436b7d1be8d284, type: 3}
+  - <Answers>k__BackingField:
+    - "30 \u043D\u043E\u044F\u0431\u0440\u044F"
+    - "15 \u0434\u0435\u043A\u0430\u0431\u0440\u044F"
+    - "11 \u044F\u043D\u0432\u0430\u0440\u044F"
+    - "23 \u0434\u0435\u043A\u0430\u0431\u0440\u044F"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u043E\u0433\u043E \u0447\u0438\u0441\u043B\u0430
+        \u0432\u044B\u0448\u043B\u0430 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044F\u044F
+        \u0441\u0435\u0440\u0438\u044F \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: e545509e2ed9a7e4f9c62cbcff12c587, type: 3}
+  - <Answers>k__BackingField:
+    - "25 \u043D\u043E\u044F\u0431\u0440\u044F"
+    - "11 \u043D\u043E\u044F\u0431\u0440\u044F"
+    - "9 \u043D\u043E\u044F\u0431\u0440\u044F"
+    - "9 \u0434\u0435\u043A\u0430\u0431\u0440\u044F"
+    <IndexRightAnswer>k__BackingField: 2
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u043E\u0433\u043E \u0447\u0438\u0441\u043B\u0430
+        \u0432\u044B\u0448\u043B\u0430 \u043F\u0435\u0440\u0432\u0430\u044F \u0441\u0435\u0440\u0438\u044F
+        \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: df1174608f88b3246b79fe207256793a, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0421\u0442\u0430\u043B"
+    - "\u0421\u0442\u0430\u043B, \u043D\u043E \u043D\u0435 \u0441\u0438\u043B\u044C\u043D\u043E"
+    - "\u041D\u0435 \u0441\u0442\u0430\u043B"
+    - "\u041D\u0435 \u0441\u0442\u0430\u043B, \u043D\u043E \u0431\u044B\u043B \u043F\u043E\u043F\u0443\u043B\u044F\u0440\u0435\u043D
+      \u0441\u0440\u0435\u0434\u0438 \u043B\u044E\u0431\u0438\u0442\u0435\u043B\u0435\u0439"
+    <IndexRightAnswer>k__BackingField: 0
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0421\u0442\u0430\u043B \u043B\u0438 \u043F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u044B\u043C
+        \u0441\u0435\u0440\u0438\u0430\u043B \u043F\u043E\u0441\u043B\u0435 \u0432\u044B\u0445\u043E\u0434\u0430
+        \u043F\u0435\u0440\u0432\u043E\u0439 \u0441\u0435\u0440\u0438\u0438?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 8bf244a20d3b7fd489791e6e7f99489e, type: 3}
+  - <Answers>k__BackingField:
+    - "\"\u0425\u0430\u0434\u0438 \u0422\u0430\u043A\u0442\u0430\u0448\""
+    - "\"\u0420\u0430\u0437\u044A\u0435\u0437\u0434\""
+    - "\"\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0438\u0435\""
+    - "\"\u0423\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043C\""
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0412 \u043A\u0430\u043A\u043E\u0439 \u0431\u0430\u043D\u0434\u0435
+        \u0441\u043E\u0441\u0442\u043E\u044F\u0442 \u0433\u0435\u0440\u043E\u0438
+        \u0441\u0435\u0440\u0438\u0430\u043B\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 6fae8a59061f1b34ea2ea36abc439def, type: 3}
+  - <Answers>k__BackingField:
+    - "\"\u0420\u0430\u0437\u044A\u0435\u0437\u0434\""
+    - "\"\u0425\u0430\u0434\u0438 \u0422\u0430\u043A\u0442\u0430\u0448\""
+    - "\"\u041A\u0438\u043D\u043E\u043F\u043B\u0451\u043D\u043A\u0430\""
+    - "\"\u041D\u0438\u0437\u044B\""
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0413\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0430,
+        \u043A\u043E\u0442\u043E\u0440\u0443\u044E \u0443\u043F\u043E\u043C\u044F\u043D\u0430\u043B\u0438,
+        \u043D\u043E \u043A\u043E\u0442\u043E\u0440\u043E\u0439 \u043D\u0435\u0442
+        \u0432 \u0441\u0435\u0440\u0438\u0430\u043B\u0435?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: fd1994416f96cc24dbdac5ea8cac79f7, type: 3}
+  - <Answers>k__BackingField:
+    - "\"\u0410\u0432\u0442\u043E\u0437\u0430\u0432\u043E\u0434\u0441\u043A\u043E\u0439\""
+    - "\"\u0416\u041A \u042D\u043D\u0435\u0440\u0433\u0435\u0442\u0438\u043A\""
+    - "\"\u042D\u043D\u0435\u0440\u0433\u043E\u0441\u0431\u044B\u0442\""
+    - "\"\u0422\u0435\u043F\u043B\u043E\u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\""
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0418\u0437 \u043A\u0430\u043A\u043E\u0433\u043E
+        \u0440\u0430\u0439\u043E\u043D\u0430 \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0430
+        \"\u0422\u044F\u043F-\u041B\u044F\u043F\"?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 319f04ab3b8057e47814b6be7cab021b, type: 3}
+  - <Answers>k__BackingField:
+    - "\"\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0438\u0435\""
+    - "\"\u0414\u043E\u043C \u0431\u044B\u0442\u0430\""
+    - "\"\u0423\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043C\""
+    - "\"\u0425\u0430\u0434\u0438 \u0422\u0430\u043A\u0442\u0430\u0448\""
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0421\u0430\u043C\u0430\u044F \u043F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u0430\u044F
+        \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0430 \u041A\u0430\u0437\u0430\u043D\u0438?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: f06fd37652778d64ba3f1eab491888b3, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0418\u043B\u044C\u043D\u0430\u0437"
+    - "\u0418\u0433\u043D\u0430\u0442\u0438\u0439"
+    - "\u0418\u0433\u043E\u0440\u044C"
+    - "\u0418\u0432\u0430\u043D"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0420\u0435\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0438\u043C\u044F \u0430\u043A\u0442\u0451\u0440\u0430, \u0438\u0433\u0440\u0430\u0432\u0448\u0435\u0433\u043E
+        \u0412\u043E\u0432\u0443 \u0410\u0434\u0438\u0434\u0430\u0441\u0430?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 2fb147d6eef560640a5bbc0cd7882ffb, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0410\u0439\u0433\u0443\u043B\u044C"
+    - "\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F"
+    - "\u0415\u043A\u0430\u0442\u0435\u0440\u0438\u043D\u0430"
+    - "\u0410\u043D\u043D\u0430"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0420\u0435\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0438\u043C\u044F \u0430\u043A\u0442\u0440\u0438\u0441\u044B, \u0438\u0433\u0440\u0430\u0432\u0448\u0443\u044E
+        \u0410\u0439\u0433\u0443\u043B\u044C?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: a69d4b092296e40439d8b39721fbb3f3, type: 3}
+  - <Answers>k__BackingField:
+    - "\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440 \u041F\u0435\u0442\u0440\u043E\u0432"
+    - "\u0421\u0435\u0440\u0433\u0435\u0439 \u0411\u043E\u0440\u0443\u043D\u043E\u0432"
+    - "\u0414\u0430\u043D\u0438\u043B\u0430 \u041A\u043E\u0437\u043B\u043E\u0432\u0441\u043A\u0438\u0439"
+    - "\u041C\u0438\u043B\u043E\u0448 \u0411\u0438\u043A\u043E\u0432\u0438\u0447"
+    <IndexRightAnswer>k__BackingField: 1
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u041A\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0439\u043D\u0435
+        \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0439 \u0430\u0440\u0442\u0438\u0441\u0442
+        \u043F\u043E\u044F\u0432\u0438\u043B\u0441\u044F \u0432 \u0441\u0435\u0440\u0438\u0430\u043B\u0435?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: 7a9508ad9d04f9546b92f381dc4f7fcb, type: 3}
+  - <Answers>k__BackingField:
+    - "\u042F\u043D\u043A\u043E\u0432\u0441\u043A\u0438\u0439"
+    - "\u041F\u0435\u0440\u0435\u0441\u0438\u043B\u044C\u0434"
+    - "\u0412\u0430\u0441\u0438\u043B\u044C\u0435\u0432"
+    - "\u041A\u043E\u043B\u043E\u0433\u0440\u0438\u0432\u044B\u0439"
+    <IndexRightAnswer>k__BackingField: 3
+    <Question>k__BackingField:
+      <Content>k__BackingField: "\u0424\u0430\u043C\u0438\u043B\u0438\u044F \u0430\u043A\u0442\u0451\u0440\u0430,
+        \u0441\u044B\u0433\u0440\u0430\u0432\u0448\u0435\u0433\u043E \u041A\u0430\u0449\u0435\u044F?"
+      <Sprite>k__BackingField: {fileID: 21300000, guid: db6010bb933c443498ca3153a2cf8cc5, type: 3}
+  _answerButtons:
+  - {fileID: 7883612899012867126}
+  - {fileID: 6830016295396135154}
+  - {fileID: 2292093457563494622}
+  - {fileID: 8898197334681899328}
+  _answerTexts:
+  - {fileID: 8174963450238926331}
+  - {fileID: 5377070325845757349}
+  - {fileID: 1604822753751456904}
+  - {fileID: 1272171704287094392}
+  _canvas: {fileID: 0}
+  _questionText: {fileID: 8463883328974296812}
+  _counterQuestionText: {fileID: 753190351550244515}
+  _questionImage: {fileID: 1802106817001988315}
+  _resultMenuPrefab: {fileID: 488655626669909566, guid: df39eaf5db2155d4a9fa0419b0a1f0f0, type: 3}
+--- !u!1 &7583318895260503457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7128819567349370750}
+  m_Layer: 0
+  m_Name: MainUIPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7128819567349370750
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7583318895260503457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.2575655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7054374789356923104}
+  - {fileID: 5973033351774204632}
+  - {fileID: 8444112375608267301}
+  - {fileID: 3975236582158448917}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &8126727318301346908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 753898788443090720}
+  - component: {fileID: 7371470137115503601}
+  - component: {fileID: 753190351550244515}
+  m_Layer: 5
+  m_Name: Counter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &753898788443090720
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8126727318301346908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5973033351774204632}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.43500003, y: 0.016252454}
+  m_AnchorMax: {x: 0.56515014, y: 0.0625049}
+  m_AnchoredPosition: {x: -0.090538025, y: 7.0000305}
+  m_SizeDelta: {x: -3, y: -3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7371470137115503601
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8126727318301346908}
+  m_CullTransparentMesh: 1
+--- !u!114 &753190351550244515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8126727318301346908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_sharedMaterial: {fileID: 4976817040587448316, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278246143
+  m_fontColor: {r: 1, g: 0.854902, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &8326729307194216115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1517496413052877237}
+  - component: {fileID: 1701719126823087121}
+  - component: {fileID: 8174963450238926331}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1517496413052877237
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8326729307194216115}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6861217327389389123}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -74, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1701719126823087121
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8326729307194216115}
+  m_CullTransparentMesh: 1
+--- !u!114 &8174963450238926331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8326729307194216115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_sharedMaterial: {fileID: 4976817040587448316, guid: f56464af20a2f5a40a22f56a76dbcc34, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278246143
+  m_fontColor: {r: 1, g: 0.8564266, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 25
+  m_fontSizeBase: 25
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0.0000018855546, y: 0, z: -0.77396584, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}

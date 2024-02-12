@@ -2,6 +2,14 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+/Turn Back Ragnarok/[Ll]ibrary/
+/Turn Back Ragnarok/[Tt]emp/
+/Turn Back Ragnarok/[Oo]bj/
+/Turn Back Ragnarok/[Bb]uild/
+/Turn Back Ragnarok/[Bb]uilds/
+/Turn Back Ragnarok/[Ll]ogs/
+/Turn Back Ragnarok/[Uu]ser[Ss]ettings/
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -46,6 +54,13 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+Library/
+Temp/
+Logs/
+UserSettings/
+.idea./
+
+
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -70,3 +85,4 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Turn Back Ragnarok/obj/
