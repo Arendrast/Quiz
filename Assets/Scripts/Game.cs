@@ -13,6 +13,8 @@ public class Game : MonoBehaviour
     [SerializeField] private TMP_Text _questionText, _counterQuestionText;
     [SerializeField] private Image _questionImage;
     [SerializeField] private ResultMenu _resultMenuPrefab;
+
+    [SerializeField] private List<RectTransform> _objectsForOffOnShowResultMenu;
     //[SerializeField] private Sprite[] _sprites;
     private string _currentAnswer;
     private QestionWithAnswers CurrentQuestion => _questionsWithAnswers[_currentQuestionNumber];
@@ -41,11 +43,14 @@ public class Game : MonoBehaviour
     private void UpdateQuestionCounter() => _counterQuestionText.text = $"{_currentQuestionNumber + 1}/{_questionsWithAnswers.Count}";
     private bool IsLastQuestion() => CurrentQuestion == _questionsWithAnswers[^1];
 
+    private void OffObjects() => _objectsForOffOnShowResultMenu.ForEach(obj => obj.gameObject.SetActive(false));
+
     private void OnClickAnswerButton()
     {
         if (IsLastQuestion())
         {
             OpenResultMenu();
+            OffObjects();
             return;
         }
         

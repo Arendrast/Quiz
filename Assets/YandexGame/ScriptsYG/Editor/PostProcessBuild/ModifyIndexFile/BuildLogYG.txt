@@ -1,2 +1,2 @@
-Build path: C:/Users/Arend/QueezGameBuilds/Mobile2
-Build number: 146
+Build path: E:/GitHub/Build/Quiz
+Build number: 147
