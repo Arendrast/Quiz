@@ -47,6 +47,8 @@ public class Game : MonoBehaviour
 
     private void OnClickAnswerButton()
     {
+        HandleInputAnswer();
+
         if (IsLastQuestion())
         {
             OpenResultMenu();
@@ -54,7 +56,6 @@ public class Game : MonoBehaviour
             return;
         }
         
-        HandleInputAnswer();
         IncreaseCurrentQuestionNumber();
         SetAnswers();
         SetQuestionText();
